@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main-div {
+  display: flex;
+  background-color: #20bf6b;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.center-div {
+  display: flex;
+
+  align-items: center;
+  min-height: 80vh;
+  width: 25%;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px;
+
+  /* padding:2rem; */
+}
+h1 {
+  display: flex;
+  color: white;
+  background: transparent;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  background-color: orange;
+  box-shadow: 5px 5px 25px -5px black;
+  width: 100%;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  width: 60%;
+  border-bottom: 2px solid orange;
+  outline: none;
+}
+.fa-plus,
+.fa-edit {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: orange;
+
+  font: size 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+
+  text-shadow: 5px 5px 25px -5px black;
+}
+.fa-plus:hover,
+.fa-edit:hover {
+  color: #20bf6b;
+}
+ol {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: left;
+}
+li {
+  list-style: none;
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: orange;
+  text-transform: capitalize;
+}
+.todo-style {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo-style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border-radius: 50%;
+  margin: o 15px 0 35px;
+  margin-right: 10px;
+  color: white;
+  box-shadow: 5px 5px 25px -5px black;
+}
+.todo-style .fa-times:hover {
+  background-color: red;
+}
+.todo-style .fa-edit {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin: o 15px 0 35px;
+
+  /* box-shadow: 5px 5px 25px -5px rgb(58, 54, 54); */
+}
+.todo-style .fa-edit:hover {
+  color: rgb(0, 211, 0);
+}
